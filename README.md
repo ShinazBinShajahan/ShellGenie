@@ -1,0 +1,2 @@
+# ShellGenie
+Termux Shell Modifier 
