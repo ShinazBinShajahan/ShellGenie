@@ -217,9 +217,9 @@ while count < 10:
             pass
             shellchoice = input(yellow+"Pick A Shell"+white+" :: "+yellow)
             if shellchoice == "1":
-                os.system("bash data/prt/prt.sh")
+                os.system("bash Assets/data/prt/prt.sh")
             elif shellchoice == "2":
-                os.system("bash data/fsh/fsh.sh")
+                os.system("bash Assets/data/fsh/fsh.sh")
             
                 
                     
@@ -230,7 +230,7 @@ while count < 10:
         print(bullets+ "Thank you for using ShellGenie \n Follow me For more tools \n" , " \033[0;31m" , " Exiting...")
         count = 30
     elif choice == "2":
-        os.system("bash data/dflt/dflt.sh")
+        os.system("bash Assets/data/dflt/dflt.sh")
     elif choice =="3":
         print(bullets+"Find me on github \n" + yellow +"https://github.com/ShinazBinShajahan")
         print(numberer1+red+"SetDoor"+green+"A simple PHP Backdoor Binder")
