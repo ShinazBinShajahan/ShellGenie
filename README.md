@@ -6,6 +6,7 @@ ShellGenie is a very useful tool to customise your termux shell as you like with
 # Usage 
 
 cd ShellGenie
+
 bash ShellGenie.sh
 
 That's all 
