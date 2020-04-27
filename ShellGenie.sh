@@ -1,2 +1,4 @@
-pip install -r Assets/requirement.txt
-python Assets/tr.py
+pip install random
+pkg install figlet
+cd Assets
+python tr.py
