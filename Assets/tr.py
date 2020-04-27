@@ -131,7 +131,7 @@ while count < 10:
             dirchoice = input(bullets+ "Do you want to Show the working directory in your PS1 ? "+yellow+" [ "+green+"Y "+white+"/ "+red+"N"+yellow+" ]"+white+" :: "+yellow)
             dirchoice=dirchoice.lower()
             if dirchoice == "y" :
-                print(bullets+ "Do you want to show :: \n "+numberer+" only the current directory name or \n "+numberer+" the whole name from the root ? ")
+                print(bullets+ "Do you want to show :: \n "+numberer1+" only the current directory name or \n "+numberer2+" the whole name from the root ? ")
                 diryes = input(green+"Enter "+yellow+"["+white+"1"+green+" / "+white+"2"+yellow+"]"+white+" :: "+white)
                 if diryes == "1":
                     diryesfinal = "\W"
